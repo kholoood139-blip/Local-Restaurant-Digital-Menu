@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>سفرة الأصالة - قائمة المذاق التراثي الأصيل</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+  
+  <!-- Tailwind CSS CDN & Custom Config from Stitch Design System -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-fixed-variant": "#663d00",
+            "outline": "#8b716a",
+            "on-surface-variant": "#57423c",
+            "surface-container": "#f1ede6",
+            "on-secondary-container": "#6f4300",
+            "error": "#ba1a1a",
+            "background": "#fdf9f2",
+            "surface-tint": "#a43c1b",
+            "on-error-container": "#93000a",
+            "on-error": "#ffffff",
+            "surface-dim": "#dddad3",
+            "on-surface": "#1c1c18",
+            "primary": "#973312",
+            "surface-bright": "#fdf9f2",
+            "on-tertiary-fixed": "#370d06",
+            "on-tertiary-container": "#ffece8",
+            "surface-container-highest": "#e6e2db",
+            "surface-container-high": "#ebe8e1",
+            "surface-container-low": "#f7f3ec",
+            "primary-fixed": "#ffdbd1",
+            "tertiary-fixed-dim": "#ffb4a5",
+            "surface-variant": "#e6e2db",
+            "inverse-primary": "#ffb59f",
+            "surface-container-lowest": "#ffffff",
+            "tertiary": "#7e4539",
+            "on-primary": "#ffffff",
+            "secondary-container": "#fead46",
+            "secondary-fixed-dim": "#ffb965",
+            "inverse-on-surface": "#f4f0e9",
+            "surface": "#fdf9f2",
+            "on-background": "#1c1c18",
+            "tertiary-container": "#9b5c4f",
+            "outline-variant": "#dec0b8",
+            "primary-fixed-dim": "#ffb59f",
+            "secondary": "#875300",
+            "on-primary-fixed": "#3a0a00",
+            "on-tertiary": "#ffffff",
+            "on-secondary-fixed": "#2b1700",
+            "inverse-surface": "#31302c",
+            "on-primary-fixed-variant": "#842504",
+            "tertiary-fixed": "#ffdad3",
+            "on-primary-container": "#ffece7",
+            "error-container": "#ffdad6",
+            "on-tertiary-fixed-variant": "#6e372c",
+            "primary-container": "#b84a28",
+            "on-secondary": "#ffffff",
+            "secondary-fixed": "#ffddba"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin": "1rem",
+            "space-xs": "0.25rem",
+            "margin-desktop": "3.5rem",
+            "space-lg": "1.5rem",
+            "gutter": "1.25rem",
+            "margin-tablet": "2rem",
+            "space-sm": "0.5rem",
+            "space-md": "1rem",
+            "gutter-desktop": "1.75rem",
+            "space-xl": "2.5rem"
+          },
+          "fontFamily": {
+            "price-tag": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Noto Serif"],
+            "headline-md": ["Noto Serif"],
+            "title-md": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "headline-sm": ["Noto Serif"],
+            "headline-lg": ["Noto Serif"],
+            "headline-xl": ["Noto Serif"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "title-lg": ["Plus Jakarta Sans"],
+            "label-lg": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "headline-xl-mobile": ["Noto Serif"]
+          },
+          "fontSize": {
+            "price-tag": ["1.125rem", { "lineHeight": "1.5rem", "fontWeight": "700" }],
+            "headline-lg-mobile": ["1.625rem", { "lineHeight": "2.125rem", "fontWeight": "700" }],
+            "headline-md": ["1.5rem", { "lineHeight": "2rem", "fontWeight": "600" }],
+            "title-md": ["1rem", { "lineHeight": "1.5rem", "fontWeight": "600" }],
+            "label-md": ["0.75rem", { "lineHeight": "1rem", "fontWeight": "600" }],
+            "headline-sm": ["1.25rem", { "lineHeight": "1.75rem", "fontWeight": "600" }],
+            "headline-lg": ["2.25rem", { "lineHeight": "2.75rem", "fontWeight": "700" }],
+            "headline-xl": ["3rem", { "lineHeight": "3.75rem", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "body-sm": ["0.8125rem", { "lineHeight": "1.25rem", "fontWeight": "400" }],
+            "body-md": ["0.9375rem", { "lineHeight": "1.5rem", "fontWeight": "400" }],
+            "title-lg": ["1.125rem", { "lineHeight": "1.625rem", "fontWeight": "700" }],
+            "label-lg": ["0.875rem", { "lineHeight": "1.25rem", "fontWeight": "600" }],
+            "body-lg": ["1.0625rem", { "lineHeight": "1.75rem", "fontWeight": "400" }],
+            "headline-xl-mobile": ["2rem", { "lineHeight": "2.5rem", "fontWeight": "700" }]
+          }
+        }
+      }
+    };
+  </script>
+  
+  <style>
+    @layer base {
+      html, body { margin: 0; padding: 0; }
+      body { overscroll-behavior: none; }
+      main > :first-child { margin-top: 0 !important; }
+      main > :last-child { margin-bottom: 0 !important; }
+    }
+    ::-webkit-scrollbar { display: none; }
+    .scrollbar-none {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+
+<body class="bg-surface font-body-md text-body-md text-on-surface antialiased">
+  <!-- Header -->
+  <header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_-2px_rgba(90,40,30,0.06)]">
+    <div class="h-20 w-full px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between">
+      <div class="flex items-center gap-space-md">
+        <img alt="سفرة الأصالة" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0kwHu44cdLSAIASEbY_cBU9eyQ36Rsk8-sK1bV8apElMEPtz6FHhInq7HmKPoOoadRUxtKuPpAmwkReLRLeZLuh5C-LA_Ve-kvVLYFx6tigoPFajfb_GarL_39drxqGQXz5Z8cdMZmSqBjlp3XJwYmnc4cpAeoHlxM6qA1v9K6mKiasQWsHWLXg834yqXjuv92ld-RaVNmHlNeq_q-ZA5aYw9vyM4SeMtJH5tE999qg7J6fPPgIzT"/>
+        <div class="flex flex-col">
+          <span class="font-headline-sm text-headline-sm text-primary leading-tight">سفرة الأصالة</span>
+          <span class="font-label-md text-label-md text-on-surface-variant">أعرق النكهات الشعبية</span>
+        </div>
+      </div>
+      <nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary-container font-title-md">
+        <a aria-current="page" class="px-space-md py-space-xs rounded-xl transition-colors bg-primary-container text-on-primary-container font-title-md" data-path="digital-menu" href="#">القائمة الرقمية</a>
+        <a class="px-space-md py-space-xs rounded-xl font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="daily-offers" href="#">عروض اليوم</a>
+        <a class="px-space-md py-space-xs rounded-xl font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="our-story" href="#">قصة المطعم</a>
+        <a class="px-space-md py-space-xs rounded-xl font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="our-branches" href="#">فروعنا</a>
+      </nav>
+      <div class="flex items-center gap-space-sm">
+        <button id="header-cart-btn" class="relative flex items-center justify-center gap-space-xs bg-primary text-on-primary px-space-md py-space-sm rounded-xl shadow-[0_4px_16px_-2px_rgba(90,40,30,0.15)] hover:bg-primary-container hover:text-on-primary-container transition-all cursor-pointer" type="button">
+          <span class="material-symbols-outlined text-[1.25rem]">shopping_bag</span>
+          <span class="font-label-lg text-label-lg hidden sm:inline">الطلبات</span>
+          <span id="header-cart-count" class="bg-secondary-container text-on-secondary-container font-price-tag text-price-tag text-xs px-2 py-0.5 rounded-full">0</span>
+        </button>
+        <button aria-label="القائمة" class="lg:hidden p-space-sm rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" type="button">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="w-full pt-20 bg-surface min-h-screen">
+    <div class="flex flex-col w-full">
+      <!-- Banner & Live Search Section -->
+      <section class="relative w-full px-margin md:px-margin-tablet lg:px-margin-desktop py-space-xl overflow-hidden bg-gradient-to-b from-surface-container-high/60 to-surface">
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-20 -right-20 w-80 h-80 bg-secondary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="max-w-4xl mx-auto flex flex-col items-center text-center relative z-10 gap-space-md">
+          <div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-container/20 text-on-secondary-container">
+            <span class="material-symbols-outlined text-[1.125rem]" style="font-variation-settings: 'FILL' 1;">restaurant_menu</span>
+            <span class="font-label-lg text-label-lg">مطبخ الأجداد بمذاق اليوم الفاخر</span>
+          </div>
+          <h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">
+            قائمة المذاق التراثي الأصيل
+          </h1>
+          <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            أطباق شعبية مختارة بعناية تُطهى بلهب التقاليد وبهارات الأرض العتيقة، محضّرة بكل حب وكرم ضيافة عربية أصيلة.
+          </p>
+          <!-- Search Bar -->
+          <div class="w-full max-w-xl mt-space-sm relative">
+            <div class="relative flex items-center bg-surface-container-lowest rounded-xl shadow-md transition-all focus-within:shadow-xl focus-within:ring-2 focus-within:ring-secondary-container">
+              <span class="material-symbols-outlined text-outline pr-space-md pl-space-xs text-[1.5rem]">search</span>
+              <input class="w-full py-space-md pl-space-md pr-space-xs bg-transparent text-on-surface font-body-md text-body-md focus:outline-none placeholder:text-outline" id="menu-search-input" placeholder="ابحث عن طبق، مكونات (مثل: حاشي، سمن، كبدة)..." type="text"/>
+              <button aria-label="مسح البحث" class="hidden p-space-xs ml-space-sm text-outline hover:text-primary transition-colors cursor-pointer" id="clear-search-btn" type="button">
+                <span class="material-symbols-outlined text-[1.25rem]">close</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sticky Categories & Live Filter Bar -->
+      <nav aria-label="تصنيفات الأطباق" class="sticky top-20 z-40 w-full bg-surface/90 backdrop-blur-md shadow-sm py-space-md px-margin md:px-margin-tablet lg:px-margin-desktop">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-space-md">
+          <!-- Category Pill List (الكل، إفطار، غداء، عشاء، حلويات ومشروبات) -->
+          <div class="flex items-center gap-space-xs overflow-x-auto w-full sm:w-auto pb-1 sm:pb-0 scrollbar-none" id="categories-container">
+            <button class="category-btn flex items-center gap-space-xs px-space-md py-space-xs rounded-full font-title-md text-title-md bg-primary text-on-primary shadow-sm transition-all whitespace-nowrap cursor-pointer hover:bg-primary/95" data-category="all" type="button">
+              <span class="material-symbols-outlined text-[1.25rem]">select_all</span>
+              <span>الكل</span>
+            </button>
+            <button class="category-btn flex items-center gap-space-xs px-space-md py-space-xs rounded-full font-title-md text-title-md bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap cursor-pointer" data-category="breakfast" type="button">
+              <span class="material-symbols-outlined text-[1.25rem]">sunny</span>
+              <span>إفطار</span>
+            </button>
+            <button class="category-btn flex items-center gap-space-xs px-space-md py-space-xs rounded-full font-title-md text-title-md bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap cursor-pointer" data-category="lunch" type="button">
+              <span class="material-symbols-outlined text-[1.25rem]">local_fire_department</span>
+              <span>غداء</span>
+            </button>
+            <button class="category-btn flex items-center gap-space-xs px-space-md py-space-xs rounded-full font-title-md text-title-md bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap cursor-pointer" data-category="dinner" type="button">
+              <span class="material-symbols-outlined text-[1.25rem]">nights_stay</span>
+              <span>عشاء</span>
+            </button>
+            <button class="category-btn flex items-center gap-space-xs px-space-md py-space-xs rounded-full font-title-md text-title-md bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap cursor-pointer" data-category="desserts" type="button">
+              <span class="material-symbols-outlined text-[1.25rem]">coffee</span>
+              <span>حلويات ومشروبات</span>
+            </button>
+          </div>
+          <!-- Quick Counter & View Cart Toggle -->
+          <div class="flex items-center gap-space-md self-end sm:self-auto shrink-0">
+            <div class="font-label-md text-label-md text-on-surface-variant bg-surface-container px-space-md py-space-xs rounded-lg">
+              عرض <span class="font-price-tag text-price-tag text-primary" id="results-count">16</span> طبق
+            </div>
+            <button class="flex items-center gap-space-xs text-primary font-label-lg text-label-lg hover:underline cursor-pointer" id="open-cart-banner-btn" type="button">
+              <span class="material-symbols-outlined text-[1.25rem]">shopping_bag</span>
+              <span>سلة الطلب (<span id="cart-item-count-badge">0</span>)</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Dishes Showcase Grid Section -->
+      <section class="w-full px-margin md:px-margin-tablet lg:px-margin-desktop py-space-lg">
+        <div class="max-w-7xl mx-auto">
+          <!-- Empty Search / Filter State (Hidden by default) -->
+          <div class="hidden flex-col items-center justify-center py-space-xl text-center" id="no-results-state">
+            <div class="w-20 h-20 rounded-full bg-surface-container-highest flex items-center justify-center mb-space-md text-outline">
+              <span class="material-symbols-outlined text-[2.5rem]">search_off</span>
+            </div>
+            <h2 class="font-headline-md text-headline-md text-on-surface mb-space-xs">عذراً، لم نجد أطباقاً مطابقة</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant max-w-sm mb-space-md">جرّب البحث باسم طبق آخر أو تصفح كافة الفئات التراثية المتاحة.</p>
+            <button class="px-space-lg py-space-sm bg-primary text-on-primary rounded-xl font-label-lg text-label-lg shadow-sm hover:bg-primary-container transition-all cursor-pointer" id="reset-filter-btn" type="button">عرض جميع الأطباق</button>
+          </div>
+
+          <!-- Live Dishes Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-gutter-desktop" id="dishes-grid">
+            
+            <!-- 1. شكشوكة حجرية -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="breakfast" data-id="dish-1" data-name="شكشوكة حجرية بالجبن البلدي" data-price="28">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="شكشوكة حجرية بالجبن البلدي" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD_zIXbqFPIxU7cKrDmA3098oGKxIbu_ql2HUMjh8y8XHX1yu0We8j0N5AjAGasWEPtPRxHmYcK8oZEw6K0twkBnKYjiXPcbKxFtZ5BIgIpT_yA61rWA0WzGjKtP4sSEP8FsgVxXOD2GpxZoKhnuwbCNvgE4hoLVHT6pheEohX0wMthgP7ihPMXG3heMu-NJX9YMbUROLtiZGgtjCcHnV7SBO0e6VscEAy6FjEfin56IMuUB4yuhCN"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container shadow-sm">إفطار شعبي</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <div class="flex items-start justify-between gap-space-xs">
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface">شكشوكة حجرية بالجبن البلدي</h3>
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    بيض طازج مطهو في مقلاة حجرية بركانية مع صلصة الطماطم المشوية والفلفل والجبن البلدي الذائب مع خبز التميس الساخن.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 340 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 12 دقيقة</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">28</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 2. كبدة طازجة -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="breakfast" data-id="dish-2" data-name="كبدة طازجة بدبس الرمان" data-price="36">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="كبدة طازجة بدبس الرمان" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVDGRBTvCPo1guB4pt12XDEAxWmb7XR8OsjYUiftOe4VptvlzxSQ4VZaVPp76nW514-7UVHXhxqDP8fJEcOGW7HY0D3j-mVF9_DgjbbYT-SrbuK3ARL8xruCN9zXBJk4O2yb_5ARYLYhB4nlopol9IWsJbUWKkcCjslNQeN75eMEb8dPeSGZM4VlEeYCJ_SFW-A08eTlf1AxS0jiLN0348KM-u-d0mdGMNgRNxj8Dw0Ig6ZurJGdt4"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container shadow-sm">إفطار شعبي</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">كبدة طازجة بدبس الرمان</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    كبدة غنم بلدي مقلقلة على الصاج الساخن مع البصل المكرمل ولمسة دبس الرمان الحامض الحلو وحبات الرمان الطازج.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 410 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 10 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">36</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 3. فول حجازي بالسمن البلدي -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="breakfast" data-id="dish-3" data-name="فول حجازي بالسمن البلدي والكمون" data-price="22">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="فول حجازي بالسمن والكمون" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNpeQXKGnQMiyX9L0wjNFCeQU-P6NnQ2Ccb3m-QbXaKUh2czyY67qY0MzE-I9hrnwrWuPldnf2XI2Prk3ftvyDQjPV_V_OR9UKQUW9js2QZSeeret4Dqr3kf_M2ltJ38x3cZWCF3uCqgi5KZlaPKD1qRLrQclCxLDWD99c9n9gWge9pCeHbwdoQ_RLU-ujV0UByBFVrErcD3HGTESQWH3AfJPriyYJ7xZQLohH8PObI18loi_NuvTO"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container shadow-sm">إفطار شعبي</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">فول حجازي بالسمن والكمون</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    فول مهروس ومبخر على الجمر مع الكمون العطري وقادح السمن البري البلدي ورشة الدقة المدينية المميزة.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 290 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 8 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">22</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 4. فتة حمص بالسمن والمكسرات -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="breakfast" data-id="dish-4" data-name="فتة حمص بالسمن والمكسرات" data-price="26">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="فتة حمص بالسمن والمكسرات" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKtolyJSJIQCMXEDX4K7zFHstIIFyznD3FBWKcfruezPl3OLrNpWfkUfCNp3oseiO7DgsvMHC2SGLsEGWtYdjhUnThSzlUPmypD6l6yfZE1gp3obJo3lcfId6hKtTUUBah3nb8-ed2sNPjuAgZeiEhH2VZU9XD63RYYkJmzR_fU2XSKKQvr2oHIXusBS4JPh6-XZhjY1Z3ihaqxljd69iGQ_iUQJmxWKFsFIDbWWboB5b95HJ3y8cC"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-secondary-container text-on-secondary-container shadow-sm">إفطار شعبي</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">فتة حمص بالسمن والمكسرات</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    طبقات الخبز المقرمش مع الحمص المسلوق وصلصة اللبن بالطحينة والثوم، مسكوب عليها سمن بلدي محمر بالصنوبر.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 380 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 10 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">26</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 5. كبسة لحم حاشي -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="lunch" data-id="dish-5" data-name="كبسة لحم حاشي بالزعفران والمكسرات" data-price="78">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="كبسة لحم حاشي بالزعفران" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA70AzKr6VE9cPYyx6E0u6LU6YJdZ5RgL9FqopRrVdjw81zQ1JvvvOYlf7GU0RQWbAD7qwKGjIpYmg9pp9PSoBxc6iKo581DGY804HIR3zwXOHQoMWNyPTawa4-8Geo0BZWa4xypweMfqnotYMFPfnbau4_BsdcDYEJxqRfbBnuDL2Ha1WoxTs3gYdXKdrHdNgAcEMsyIKwXS5r2qQ7oNhVShxBOJDybbPnROmclLY3uEncRWnXXua"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm">غداء - الأكثر طلباً</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">كبسة لحم حاشي بالزعفران</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    قطع لحم حاشي صغير طري مطبوخ بخلطة بهارات نجدية فواحة مع أرز بسمتي فاخر منقوع بماء الورد والزعفران والمكسرات المحمصة.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 760 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 25 دقيقة</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">78</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 6. مندي دجاج مدخن -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="lunch" data-id="dish-6" data-name="مندي دجاج مدخن في التنور" data-price="44">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="مندي دجاج مدخن في التنور" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQA43SppUwbTqEhS_P_5SZDTF8qdfA1Qyofer1ZsXEnspHczHCtTUclt0SuWoBbRVqDZs8OPsx_2LDaHQkJqx-iG8NT7K31RbDIxY2EI7fwZN6K00QtCfVQ0Eq4wuf0Yt2sDfpMcttVNgZSdiygatJDy7A-n6YsFFW5quKs-barQUewBVk6b-7KyzyQd_pRtcu_O7hxstQQyqeSF9VTgZy_LivKd7-bKrteEvDWL--Z49FEElBg57R"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm">غداء رئيسي</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">مندي دجاج مدخن في التنور</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    نصف حبة دجاج متبلة بالزعفران مطهوة تحت رمال التنور ببطء لضمان نضج استثنائي مع أرز مندي مدخن وشطة سحاوق طازجة.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 640 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 15 دقيقة</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">44</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 7. مضغوط لحم نعيمي -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="lunch" data-id="dish-7" data-name="مضغوط لحم نعيمي بالأرز البسمتي" data-price="85">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="مضغوط لحم نعيمي بالأرز" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWTG_S7yweq9_eukDrx465_Ka-Zx6UxFRdrzaFljCaPSs0DARZElOg8juJYeFsiDdRw9xKZ2hoO2A4ZhKpa-wvfe2nyi6Q3ST-r_0p4tirv5QU7vbTOQxgPGtOeSqPr3zr62b5m3wSmgZknqXDEwztm3T6W0FBSdGGd8sw5iTVYv94XSHbGfBPiRDs1q-6K9GXMjZLq7Vj1MXkcXeg07sVRjjNwiX69Lr8fhpaD1b32JDV6E0Nva4E"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm">غداء - لحم طازج</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">مضغوط لحم نعيمي بالأرز</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    لحم خروف نعيمي محلي مطبوخ بقدر الضغط على نار هادئة حتى الذوبان، مع مرقة الطماطم المركزة وحبات الفلفل الحار.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 820 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 20 دقيقة</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">85</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 8. مقلوبة باذنجان باللحم -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="lunch" data-id="dish-8" data-name="مقلوبة باذنجان باللحم المتبل" data-price="62">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="مقلوبة باذنجان باللحم" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpM3HMbfrlczdxD3nt_YjtqkkCXvs8rmQQumemDFoqsFjTkL48l94LSDd3eAFNBMhmQYdqqcNTQ0XnkyJbURhbHZo0P53H1q9-YCUuo9jOTNLY8p8h6zJiM7Di2T0e9ynDnyktANvmsfgq6cENW5SqByMirK8MndON-th_lLIe7gv9HCyooj3S2fC-LBuyktP9mWE9HkhZLWhI5gl0msbpmtQGMn2w9ZOvpEHNqvErwuSslnKKJ17P"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm">غداء</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">مقلوبة باذنجان باللحم</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    الطبق العائلي المحبوب بشرائح الباذنجان المقلي والزهرة والبطاطس المتبلة مع قطع لحم الغنم الطري والأرز المتبل بالقرفة.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 680 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 20 دقيقة</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">62</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 9. مطبق مالح باللحم والكرات -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="dinner" data-id="dish-9" data-name="مطبق مالح باللحم المفروم والكرات" data-price="24">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="مطبق مالح باللحم والكرات" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnzZznHEwYSIXwJqPgZ0H5v00GsDIkpMsxnTUJDZCd-5Iv7-mPPUL0V6UB41tYrVtnAg88BFvUa9E4SpMD8HG0sEwklwzrz6OWVCcVEkB-FTM42TPiesfTEJDhkhEtfFq2CjBTFLKj4q_FxcW9kkjrwgApSqDJotOV6qwXf3sH1kqg73mjiLZ5aFGtL6403fcwinUrGOICuLXYiW7Z8B9Pgd2X_tIFCqWC8TMi4Ux-ygRRF4KI0Gje"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-secondary text-on-secondary shadow-sm">عشاء تراثي</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">مطبق مالح باللحم والكرات</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    عجينة رقيقة مقرمشة محشوة باللحم المفروم والكرات والبيض والطماطم والبهارات ومحمصة على الصاج مع شرائح الليمون.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 460 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 12 دقيقة</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">24</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 10. معصوب ملكي بالقشطة والعسل -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="dinner" data-id="dish-10" data-name="معصوب ملكي بالقشطة والعسل والسمن" data-price="29">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="معصوب ملكي بالقشطة والعسل" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVZeDtcFn2s_mzeaFHQulkM9RBShfVYV8r12U8wz8OuhXKRW01s2htkj0d7BsapArfbqecRDhQKkL9rhMEP4Bjs3LFOE5RaFBVA9rmzNt7G5VnSvAElFUQeCLX37xaZack5ifyKjhCZ-qQEm9gEoZ4xqE2DOe3d5cvkf7WoBjM8yR51fUje7kRABTPfVqDsUD09qFrbfYa-CaJETLs-xbkPWW8Ns2mNORMLtKxloXbRH_9HKA7M4aX"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-secondary text-on-secondary shadow-sm">عشاء شعبي</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">معصوب ملكي بالقشطة والعسل</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    فطير بر مطحون مع الموز الطازج مغطى بطبقة سخية من القشطة البلدية الطازجة، عسل السدر الصافي، جبن شيدر والسمن.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 580 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 8 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">29</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 11. عريكة جنوبية -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="dinner" data-id="dish-11" data-name="عريكة جنوبية بالتمر والحبة السوداء" data-price="32">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="عريكة جنوبية بالتمر والسمن" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqZHLNqpcDb5z1VO3ouoZpKIgD7QujPtmKMBH5unyIEO2T8G1rD655Y5ns8TrVcEXOKWQugaeKYH92toftq2_AOUbUHWI3nbRtm7c3Fsv-Rxj5Ghe-Nmu6ZGDipsUNbfC3qCAXf4KGXedM4tACcCbhqteUSxB2rXNG1Vj2BiHDVh0ljjhNWve8nMNFQf2CEvNgb_d8poLf5ivL6ckpXYWSW5XAp6FdEJG4c4n8bDP-fm2dWntRcb8a"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-secondary text-on-secondary shadow-sm">عشاء تراثي</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">عريكة جنوبية بالتمر والسمن</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    عريكة دقيق البر الأسمر معجونة بتمر الخلاص الفاخر مع بركة السمن البري في المنتصف ورشة الحبة السوداء والعسل.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 520 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 10 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">32</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 12. صاج شاورما لحم عربي -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="dinner" data-id="dish-12" data-name="صاج شاورما لحم عربي بالخبز الصاج" data-price="38">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="صاج شاورما لحم عربي" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdTzsrcoCAFvIxeBjettEHIyrEAGkt2R8rhotX9aF657CvUwwsvAUzTRn6fR65DFwrLU5HthYF9GM029Qr8LcspSkAUIe3KM_kjYLiz7VDfCbUE5lW70KjNWzNI5tgzmQYWY8ev6RIelgEguVgIH0aqe_s52FyCltyOB13_BiX0wtHAjydw1YXnCeDbUE4U8LVGr_RrhOrd9j2MvTPBxeY4VNkvXNE-smPRGvTX-H8XkhJMzuYnVxK"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-secondary text-on-secondary shadow-sm">عشاء</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">صاج شاورما لحم عربي</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    شرائح لحم بقري متبلة بتوابل الشاورما الخاصة، ملفوفة في خبز الصاج الخفيف مع الطحينة والبقدونس والبصل بالسماق.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 490 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 12 دقيقة</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">38</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 13. حنيني نجد ساخن -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="desserts" data-id="dish-13" data-name="حنيني نجد ساخن بالزبدة والليمون الأسود" data-price="26">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="حنيني نجد ساخن بالزبدة" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQPHtNHdSp7YkuXk6JBi10fkQbtrw3zrr4KH2LbHSwaERAGKmMiCBV9RhvVVm5Mm1PbYe2G_zsowTttEehGiNAQ33Aq6OBuHx63qkAt6wGDr-s7PZmQYDxJN8pOMHaW_SvkfMwPowtu_UWzgWPSsLPMdprEUs0U5gVYL45RDPG8nX3OSvO96nGP5ItrKKgq3LB4cEiIn5yb4AP6r7n2XZJO81FPVFNxsIr4nK2hY-K_9WHjIQWBFxG"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-tertiary-container text-on-tertiary-container shadow-sm">حلوى شتوية</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">حنيني نجد ساخن بالزبدة</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    حلوى الشتاء النجدية العريقة من التمر الفاخر وخبز البر المفروم مع الزبدة الذائبة ورشة الليمون الأسود المطحون.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 430 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 7 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">26</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 14. أم علي باللوز والزبيب -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="desserts" data-id="dish-14" data-name="أم علي باللوز المحمص والزبيب" data-price="25">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="أم علي باللوز والزبيب" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqv0tJZYpABtDmpxRu_3UY-JgB90MSz_fB9u96IHn3IHlEDPiI7hYcIP6qZaNVKsHIwP-X_cs3a_ROK8ubePZCzBjcuuIGs2kKpEOebC08pgcCQuQqreMPhOAEr-27HqC1V1N2jD6OQAfO9_Daxb8U_lkbY2EzpigbtcHqPi2lcHJ5hXKig_Nh7IwkOYrU4fjAwoyQdgruF6wTZ8_LmTH88DRs_ypAgQdW7kNmGVk1TLWY_ylJbs_H"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-tertiary-container text-on-tertiary-container shadow-sm">حلوى تراثية</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">أم علي باللوز والزبيب</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    رقائق البف باستري المحمرة والمغمورة بالحليب الكامل الدسم والقشطة، مزينة بالفستق واللوز المحمص والزبيب.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 470 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 10 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">25</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 15. شاي كرك بخيوط الزعفران -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="desserts" data-id="dish-15" data-name="شاي كرك فائر بخيوط الزعفران" data-price="14">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="شاي كرك بخيوط الزعفران" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWUUX3l1h7JgLLHIPqS0CToO8wOs292HEmWvYOpPy5LWxLhkazVcFA8nGZ8jUfJArsILincU78Vn2uMc0vlu3BbNJR7gCueODurqoaEXk_Yxi1ZX2BeIP294EmXjs55aLOsNroouisW_6booyas0oXHRJkFTZE9SCohH-a3cH6R2c5f0dN7mGUtx6H7KpyYfpBSoT18VumnJK2YIhC1bNecrfPJx5VgiOXZovlhoX0ddYj54v8vZ6W"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-tertiary-container text-on-tertiary-container shadow-sm">مشروب دافئ</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">شاي كرك بخيوط الزعفران</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    شاي أسود ثقيل مطبوخ مع الحليب المبخر والهيل والزنجبيل والقرنفل مع إضافة خيوط الزعفران الإيراني الممتاز.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 150 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 5 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">14</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 16. دلة قهوة سعودية بالهيل -->
+            <article class="dish-card flex flex-col bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden group" data-category="desserts" data-id="dish-16" data-name="دلة قهوة سعودية شقراء بالهيل والزعفران" data-price="28">
+              <div class="relative w-full h-52 overflow-hidden bg-surface-container">
+                <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="دلة قهوة سعودية بالهيل" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbsaMNbKpPYiSsys162wWEnbu3ZBvu1gp8XJDyF3mTCTzVIBcQ_mWP3KVFzi7TCWBT2Qpa9nz7BTlwF-f7gJmwOMHzT_f6tgzJeudjmGMyaamqGCspdz9iq3QZRUKiGMGB8IXKLhSzvuYDhdR_DVllmgWRUFr6FSvlQFRw6fxEk2LvAWLLEjURcRkJFStI2aivvwFds_-TMkqMd7wOG_vywuavIVYQQxOqVOtByL-Qze4Wed_XHjcW"/>
+                <span class="absolute top-space-sm right-space-sm px-space-sm py-0.5 rounded-full font-label-md text-label-md bg-tertiary-container text-on-tertiary-container shadow-sm">ضيافة الأصالة</span>
+              </div>
+              <div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface">دلة قهوة سعودية بالهيل</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs line-clamp-2">
+                    قهوة خولانية شقراء محمصة بعناية ومغلية بالهيل الأمريكي الصافي والزعفران، تُقدم مع صحن تمر سكري فاخر.
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-md font-label-md text-label-md text-outline">
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">local_fire_department</span> 25 سعرة</span>
+                  <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[1rem]">schedule</span> 6 دقائق</span>
+                </div>
+                <div class="flex items-center justify-between pt-space-xs">
+                  <div class="flex items-baseline gap-1 text-primary">
+                    <span class="font-price-tag text-price-tag">28</span>
+                    <span class="font-body-sm text-body-sm font-semibold">ر.س</span>
+                  </div>
+                  <div class="action-slot">
+                    <button class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer" type="button">
+                      <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                      <span>إضافة للطلب</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Sticky Mobile Cart Trigger Pill -->
+      <div class="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 sm:hidden">
+        <button class="flex items-center gap-space-sm bg-primary text-on-primary px-space-lg py-space-sm rounded-full shadow-2xl hover:bg-primary-container transition-all cursor-pointer" id="floating-cart-btn" type="button">
+          <span class="material-symbols-outlined text-[1.25rem]">shopping_bag</span>
+          <span class="font-label-lg text-label-lg">سلة الطلبات</span>
+          <span class="bg-secondary-container text-on-secondary-container font-price-tag text-price-tag text-xs px-2 py-0.5 rounded-full" id="floating-cart-count">0</span>
+          <span class="font-price-tag text-price-tag border-r border-on-primary/20 pr-space-xs mr-space-xs" id="floating-cart-total">0 ر.س</span>
+        </button>
+      </div>
+
+      <!-- Cart Slide-Over Drawer (Right-to-Left Slide Sheet) -->
+      <div class="fixed inset-0 bg-inverse-surface/40 backdrop-blur-sm z-50 opacity-0 pointer-events-none transition-opacity duration-300" id="cart-drawer-backdrop">
+        <div class="fixed top-0 bottom-0 left-0 w-full max-w-md bg-surface-container-lowest shadow-2xl flex flex-col justify-between -translate-x-full transition-transform duration-300 ease-in-out z-50 overflow-hidden" id="cart-drawer-panel">
+          <!-- Drawer Header -->
+          <div class="p-space-md bg-surface-container flex items-center justify-between border-b border-outline-variant/30">
+            <div class="flex items-center gap-space-xs">
+              <span class="material-symbols-outlined text-primary text-[1.5rem]">shopping_basket</span>
+              <h2 class="font-headline-sm text-headline-sm text-on-surface">قائمة طلباتي</h2>
+              <span class="font-label-md text-label-md px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container" id="drawer-items-count-badge">0 أطباق</span>
+            </div>
+            <button aria-label="إغلاق السلة" class="p-space-xs rounded-full text-on-surface-variant hover:bg-surface-container-high transition-colors cursor-pointer" id="close-cart-btn" type="button">
+              <span class="material-symbols-outlined">close</span>
+            </button>
+          </div>
+
+          <!-- Drawer Body: Cart Items List -->
+          <div class="flex-1 overflow-y-auto p-space-md flex flex-col gap-space-sm" id="cart-items-list">
+            <!-- Dynamic via JS -->
+          </div>
+
+          <!-- Drawer Footer: Subtotals & Checkout Options -->
+          <div class="p-space-md bg-surface-container-low border-t border-outline-variant/20 flex flex-col gap-space-sm">
+            <!-- Summary Numbers -->
+            <div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+              <div class="flex justify-between items-center">
+                <span>مجموع الأصناف:</span>
+                <span class="font-price-tag text-price-tag text-on-surface" id="cart-subtotal">0 ر.س</span>
+              </div>
+              <div class="flex justify-between items-center">
+                <span>ضريبة القيمة المضافة (15% مشمولة):</span>
+                <span class="font-price-tag text-price-tag text-on-surface" id="cart-tax">0 ر.س</span>
+              </div>
+              <div class="flex justify-between items-center text-primary pt-space-xs border-t border-outline-variant/20">
+                <span class="font-title-lg text-title-lg">المجموع الكلي:</span>
+                <span class="font-headline-sm text-headline-sm text-primary" id="cart-grand-total">0 ر.س</span>
+              </div>
+            </div>
+
+            <!-- Order Fulfillment Mode -->
+            <div class="flex items-center justify-between gap-space-xs bg-surface-container p-1 rounded-xl">
+              <button class="fulfillment-option flex-1 py-1.5 text-center font-label-md text-label-md rounded-lg bg-surface-container-lowest text-primary shadow-xs transition-all cursor-pointer" data-mode="pickup" type="button">استلام من الفرع</button>
+              <button class="fulfillment-option flex-1 py-1.5 text-center font-label-md text-label-md rounded-lg text-on-surface-variant hover:text-on-surface transition-all cursor-pointer" data-mode="dinein" type="button">تناول في المطعم</button>
+            </div>
+
+            <!-- Checkout Buttons -->
+            <div class="flex flex-col gap-space-xs mt-space-xs">
+              <button class="w-full flex items-center justify-center gap-space-xs py-space-sm bg-primary text-on-primary rounded-xl font-label-lg text-label-lg shadow-md hover:bg-primary-container transition-all cursor-pointer" id="whatsapp-checkout-btn" type="button">
+                <span class="material-symbols-outlined text-[1.25rem]">send</span>
+                <span>تأكيد وإرسال الطلب (واتساب)</span>
+              </button>
+              <button class="text-center font-label-md text-label-md text-outline hover:text-error py-1 transition-colors cursor-pointer" id="clear-all-cart-btn" type="button">
+                تفريغ السلة بالكامل
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Interactive Logic -->
+    <script>
+      (function () {
+        // App State
+        const state = {
+          activeCategory: 'all',
+          searchQuery: '',
+          cart: {} // { [dishId]: { id, name, price, count } }
+        };
+
+        // DOM Elements
+        const searchInput = document.getElementById('menu-search-input');
+        const clearSearchBtn = document.getElementById('clear-search-btn');
+        const categoryButtons = document.querySelectorAll('.category-btn');
+        const dishCards = document.querySelectorAll('.dish-card');
+        const resultsCountEl = document.getElementById('results-count');
+        const noResultsState = document.getElementById('no-results-state');
+        const resetFilterBtn = document.getElementById('reset-filter-btn');
+
+        // Drawer Elements
+        const cartDrawerBackdrop = document.getElementById('cart-drawer-backdrop');
+        const cartDrawerPanel = document.getElementById('cart-drawer-panel');
+        const closeCartBtn = document.getElementById('close-cart-btn');
+        const headerCartBtn = document.getElementById('header-cart-btn');
+        const openCartBannerBtn = document.getElementById('open-cart-banner-btn');
+        const floatingCartBtn = document.getElementById('floating-cart-btn');
+        const cartItemsList = document.getElementById('cart-items-list');
+        const cartSubtotalEl = document.getElementById('cart-subtotal');
+        const cartTaxEl = document.getElementById('cart-tax');
+        const cartGrandTotalEl = document.getElementById('cart-grand-total');
+        const headerCartCount = document.getElementById('header-cart-count');
+        const cartItemCountBadge = document.getElementById('cart-item-count-badge');
+        const drawerItemsCountBadge = document.getElementById('drawer-items-count-badge');
+        const floatingCartCount = document.getElementById('floating-cart-count');
+        const floatingCartTotal = document.getElementById('floating-cart-total');
+        const clearAllCartBtn = document.getElementById('clear-all-cart-btn');
+        const whatsappCheckoutBtn = document.getElementById('whatsapp-checkout-btn');
+        const fulfillmentOptions = document.querySelectorAll('.fulfillment-option');
+
+        let currentFulfillment = 'استلام من الفرع';
+
+        // 1. Filtering Logic: Categories (الكل، إفطار، غداء، عشاء) + Live Search
+        function filterDishes() {
+          let visibleCount = 0;
+          const query = state.searchQuery.trim().toLowerCase();
+
+          dishCards.forEach(card => {
+            const dishCategory = card.getAttribute('data-category');
+            const dishName = card.getAttribute('data-name').toLowerCase();
+            const dishDesc = card.querySelector('p')?.textContent.toLowerCase() || '';
+
+            const categoryMatches = (state.activeCategory === 'all') || (dishCategory === state.activeCategory);
+            const searchMatches = !query || dishName.includes(query) || dishDesc.includes(query);
+
+            if (categoryMatches && searchMatches) {
+              card.classList.remove('hidden');
+              card.style.opacity = '0';
+              card.style.transform = 'translateY(8px)';
+              setTimeout(() => {
+                card.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+              }, 20);
+              visibleCount++;
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+
+          resultsCountEl.textContent = visibleCount;
+
+          if (visibleCount === 0) {
+            noResultsState.classList.remove('hidden');
+            noResultsState.classList.add('flex');
+          } else {
+            noResultsState.classList.add('hidden');
+            noResultsState.classList.remove('flex');
+          }
+        }
+
+        // Category button click events
+        categoryButtons.forEach(btn => {
+          btn.addEventListener('click', () => {
+            const cat = btn.getAttribute('data-category');
+            state.activeCategory = cat;
+
+            categoryButtons.forEach(b => {
+              b.className = 'category-btn flex items-center gap-space-xs px-space-md py-space-xs rounded-full font-title-md text-title-md bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap cursor-pointer';
+            });
+
+            btn.className = 'category-btn flex items-center gap-space-xs px-space-md py-space-xs rounded-full font-title-md text-title-md bg-primary text-on-primary shadow-sm transition-all whitespace-nowrap cursor-pointer hover:bg-primary/95';
+
+            filterDishes();
+          });
+        });
+
+        // Search events
+        searchInput.addEventListener('input', (e) => {
+          state.searchQuery = e.target.value;
+          if (state.searchQuery.length > 0) {
+            clearSearchBtn.classList.remove('hidden');
+          } else {
+            clearSearchBtn.classList.add('hidden');
+          }
+          filterDishes();
+        });
+
+        clearSearchBtn.addEventListener('click', () => {
+          searchInput.value = '';
+          state.searchQuery = '';
+          clearSearchBtn.classList.add('hidden');
+          searchInput.focus();
+          filterDishes();
+        });
+
+        resetFilterBtn.addEventListener('click', () => {
+          searchInput.value = '';
+          state.searchQuery = '';
+          clearSearchBtn.classList.add('hidden');
+          const allBtn = document.querySelector('[data-category="all"]');
+          if (allBtn) allBtn.click();
+        });
+
+        // 2. Cart Operations & Quantity Steppers
+        function updateCartUI() {
+          const items = Object.values(state.cart);
+          const totalUnits = items.reduce((acc, item) => acc + item.count, 0);
+          const grandTotal = items.reduce((acc, item) => acc + (item.count * item.price), 0);
+          const taxIncluded = Math.round(grandTotal * 0.15 * 100) / 100;
+
+          // Update badges
+          if (headerCartCount) headerCartCount.textContent = totalUnits;
+          cartItemCountBadge.textContent = totalUnits;
+          drawerItemsCountBadge.textContent = `${totalUnits} أطباق`;
+          floatingCartCount.textContent = totalUnits;
+          floatingCartTotal.textContent = `${grandTotal} ر.س`;
+
+          // Update totals in drawer
+          cartSubtotalEl.textContent = `${grandTotal} ر.س`;
+          cartTaxEl.textContent = `${taxIncluded} ر.س`;
+          cartGrandTotalEl.textContent = `${grandTotal} ر.س`;
+
+          // Render drawer items
+          if (items.length === 0) {
+            cartItemsList.innerHTML = `
+              <div class="flex flex-col items-center justify-center py-16 text-center text-outline">
+                <span class="material-symbols-outlined text-[3.5rem] mb-2 opacity-50">shopping_bag</span>
+                <p class="font-headline-sm text-headline-sm text-on-surface">سلتك فارغة حالياً</p>
+                <p class="font-body-sm text-body-sm mt-1">تصفح القائمة واختر أشهى الأطباق التراثية لإضافتها.</p>
+              </div>
+            `;
+          } else {
+            cartItemsList.innerHTML = items.map(item => `
+              <div class="flex items-center justify-between p-space-sm bg-surface rounded-xl shadow-xs">
+                <div class="flex flex-col">
+                  <span class="font-title-md text-title-md text-on-surface">${item.name}</span>
+                  <span class="font-label-md text-label-md text-primary">${item.price * item.count} ر.س <span class="text-outline font-normal">(${item.price} ر.س للواحد)</span></span>
+                </div>
+                <div class="flex items-center gap-space-xs bg-surface-container rounded-lg p-1">
+                  <button type="button" class="drawer-qty-btn p-1 text-primary hover:bg-surface-container-high rounded-md transition-colors cursor-pointer" data-id="${item.id}" data-action="decrease">
+                    <span class="material-symbols-outlined text-[1.125rem]">remove</span>
+                  </button>
+                  <span class="font-price-tag text-price-tag text-xs w-6 text-center">${item.count}</span>
+                  <button type="button" class="drawer-qty-btn p-1 text-primary hover:bg-surface-container-high rounded-md transition-colors cursor-pointer" data-id="${item.id}" data-action="increase">
+                    <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                  </button>
+                </div>
+              </div>
+            `).join('');
+          }
+
+          // Sync cards action buttons
+          dishCards.forEach(card => {
+            const id = card.getAttribute('data-id');
+            const actionSlot = card.querySelector('.action-slot');
+            const cartItem = state.cart[id];
+
+            if (cartItem && cartItem.count > 0) {
+              actionSlot.innerHTML = `
+                <div class="flex items-center gap-space-xs bg-surface-container-high rounded-xl p-1 shadow-inner">
+                  <button type="button" class="card-qty-btn p-1 rounded-lg text-primary hover:bg-surface-container-lowest transition-colors cursor-pointer" data-id="${id}" data-action="decrease">
+                    <span class="material-symbols-outlined text-[1.125rem]">remove</span>
+                  </button>
+                  <span class="font-price-tag text-price-tag text-sm w-5 text-center text-on-surface">${cartItem.count}</span>
+                  <button type="button" class="card-qty-btn p-1 rounded-lg text-primary hover:bg-surface-container-lowest transition-colors cursor-pointer" data-id="${id}" data-action="increase">
+                    <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                  </button>
+                </div>
+              `;
+            } else {
+              actionSlot.innerHTML = `
+                <button type="button" class="add-to-cart-btn flex items-center gap-1 px-space-md py-space-xs rounded-xl bg-primary text-on-primary hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-all shadow-sm cursor-pointer">
+                  <span class="material-symbols-outlined text-[1.125rem]">add</span>
+                  <span>إضافة للطلب</span>
+                </button>
+              `;
+            }
+          });
+
+          bindCartEvents();
+        }
+
+        function changeQuantity(id, delta) {
+          if (!state.cart[id]) return;
+          state.cart[id].count += delta;
+          if (state.cart[id].count <= 0) {
+            delete state.cart[id];
+          }
+          updateCartUI();
+        }
+
+        function bindCartEvents() {
+          // Add buttons inside cards
+          document.querySelectorAll('.add-to-cart-btn').forEach(btn => {
+            btn.onclick = () => {
+              const card = btn.closest('.dish-card');
+              const id = card.getAttribute('data-id');
+              const name = card.getAttribute('data-name');
+              const price = parseFloat(card.getAttribute('data-price'));
+
+              state.cart[id] = { id, name, price, count: 1 };
+              updateCartUI();
+            };
+          });
+
+          // Steppers inside cards
+          document.querySelectorAll('.card-qty-btn').forEach(btn => {
+            btn.onclick = () => {
+              const id = btn.getAttribute('data-id');
+              const action = btn.getAttribute('data-action');
+              changeQuantity(id, action === 'increase' ? 1 : -1);
+            };
+          });
+
+          // Steppers inside drawer
+          document.querySelectorAll('.drawer-qty-btn').forEach(btn => {
+            btn.onclick = () => {
+              const id = btn.getAttribute('data-id');
+              const action = btn.getAttribute('data-action');
+              changeQuantity(id, action === 'increase' ? 1 : -1);
+            };
+          });
+        }
+
+        // 3. Cart Drawer Toggle Actions
+        function openCart() {
+          cartDrawerBackdrop.classList.remove('opacity-0', 'pointer-events-none');
+          cartDrawerBackdrop.classList.add('opacity-100');
+          cartDrawerPanel.classList.remove('-translate-x-full');
+          cartDrawerPanel.classList.add('translate-x-0');
+        }
+
+        function closeCart() {
+          cartDrawerBackdrop.classList.remove('opacity-100');
+          cartDrawerBackdrop.classList.add('opacity-0', 'pointer-events-none');
+          cartDrawerPanel.classList.remove('translate-x-0');
+          cartDrawerPanel.classList.add('-translate-x-full');
+        }
+
+        [headerCartBtn, openCartBannerBtn, floatingCartBtn].forEach(b => {
+          if (b) b.addEventListener('click', openCart);
+        });
+
+        closeCartBtn.addEventListener('click', closeCart);
+        cartDrawerBackdrop.addEventListener('click', (e) => {
+          if (e.target === cartDrawerBackdrop) closeCart();
+        });
+
+        // Clear all items from cart
+        clearAllCartBtn.addEventListener('click', () => {
+          state.cart = {};
+          updateCartUI();
+        });
+
+        // Fulfillment options toggle
+        fulfillmentOptions.forEach(opt => {
+          opt.addEventListener('click', () => {
+            fulfillmentOptions.forEach(o => {
+              o.className = 'fulfillment-option flex-1 py-1.5 text-center font-label-md text-label-md rounded-lg text-on-surface-variant hover:text-on-surface transition-all cursor-pointer';
+            });
+            opt.className = 'fulfillment-option flex-1 py-1.5 text-center font-label-md text-label-md rounded-lg bg-surface-container-lowest text-primary shadow-xs transition-all cursor-pointer';
+            currentFulfillment = opt.textContent.trim();
+          });
+        });
+
+        // WhatsApp Checkout
+        whatsappCheckoutBtn.addEventListener('click', () => {
+          const items = Object.values(state.cart);
+          if (items.length === 0) {
+            alert('يرجى إضافة أطباق للسلة أولاً لإتمام الطلب.');
+            return;
+          }
+
+          let message = `مرحباً مطعم سفرة الأصالة، أود تأكيد الطلب التالي (%0Aطريقة الاستلام: ${currentFulfillment}):%0A%0A`;
+          let total = 0;
+
+          items.forEach(it => {
+            const itemSub = it.price * it.count;
+            total += itemSub;
+            message += `• ${it.name} × ${it.count} = ${itemSub} ر.س%0A`;
+          });
+
+          message += `%0Aالإجمالي النهائي: ${total} ر.س%0Aشكراً لكم!`;
+          window.open(`https://wa.me/966114567890?text=${message}`, '_blank');
+        });
+
+        // Initialize UI
+        updateCartUI();
+        filterDishes();
+      })();
+    </script>
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full bg-surface-container-low mt-space-xl">
+    <div class="w-full px-margin md:px-margin-tablet lg:px-margin-desktop py-space-xl">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+        <div class="flex flex-col gap-space-sm">
+          <div class="flex items-center gap-space-sm">
+            <span class="font-headline-sm text-headline-sm text-primary">سفرة الأصالة</span>
+          </div>
+          <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            نقدم لكم أصالة المذاق التراثي المحضر بعناية وشغف يجمع بين كرم الضيافة وأجود المكونات المحلية الطازجة.
+          </p>
+        </div>
+        <div class="flex flex-col gap-space-sm">
+          <span class="font-title-lg text-title-lg text-on-surface">أوقات العمل</span>
+          <div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+            <div class="flex items-center justify-between">
+              <span>السبت - الخميس:</span>
+              <span class="font-label-md text-label-md text-on-surface">06:00 ص - 12:00 م</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span>يوم الجمعة:</span>
+              <span class="font-label-md text-label-md text-on-surface">01:00 م - 01:00 ص</span>
+            </div>
+            <div class="flex items-center gap-space-xs text-primary mt-space-xs">
+              <span class="material-symbols-outlined text-[1rem]">schedule</span>
+              <span>خدمة التوصيل مستمرة يومياً</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-space-sm">
+          <span class="font-title-lg text-title-lg text-on-surface">التواصل والاستفسار</span>
+          <div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+            <div class="flex items-center gap-space-sm">
+              <span class="material-symbols-outlined text-primary text-[1.125rem]">call</span>
+              <span class="font-label-md text-label-md text-on-surface" dir="ltr">+966 11 456 7890</span>
+            </div>
+            <div class="flex items-center gap-space-sm">
+              <span class="material-symbols-outlined text-primary text-[1.125rem]">mail</span>
+              <span class="font-label-md text-label-md text-on-surface">info@sofret-alasala.com</span>
+            </div>
+            <div class="flex items-center gap-space-sm">
+              <span class="material-symbols-outlined text-primary text-[1.125rem]">location_on</span>
+              <span>الرياض - حي النخيل - طريق الملك عبدالعزيز</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-space-sm">
+          <span class="font-title-lg text-title-lg text-on-surface">تابعنا</span>
+          <p class="font-body-sm text-body-sm text-on-surface-variant">ابق على اطلاع بأحدث الأطباق الشعبية وعروض المواسم التراثية.</p>
+          <div class="flex items-center gap-space-sm pt-space-xs">
+            <span class="material-symbols-outlined p-space-sm rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-colors cursor-pointer">tag</span>
+            <span class="material-symbols-outlined p-space-sm rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-colors cursor-pointer">share</span>
+            <span class="material-symbols-outlined p-space-sm rounded-xl bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-colors cursor-pointer">forum</span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-space-xl pt-space-md bg-surface-container-high/40 rounded-xl px-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-right">
+        <span class="font-body-sm text-body-sm text-on-surface-variant">جميع الحقوق محفوظة © 2025 لمطعم سفرة الأصالة للوجبات الشعبية.</span>
+        <div class="flex items-center gap-space-md font-body-sm text-body-sm text-on-surface-variant">
+          <a class="hover:text-on-surface transition-colors" href="#">سياسة الخصوصية</a>
+          <a class="hover:text-on-surface transition-colors" href="#">شروط الخدمة والطلب</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
